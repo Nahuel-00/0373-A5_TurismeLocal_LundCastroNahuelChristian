@@ -3,89 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Turismo Local</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Turismo en Estados Unidos</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <header>
-        <h1>Descubre Nuestra Localidad</h1>
-        <nav>
+        <h1>Descubre Estados Unidos</h1>
+    </header>
+
+    <div class="container">
+        <nav class="sidebar">
+            <h2>Índice</h2>
             <ul>
-                <li><a href="#galeria">Galería</a></li>
-                <li><a href="#lugares">Lugares de Interés</a></li>
-                <li><a href="#mapa">Mapa</a></li>
-                <li><a href="#noticias">Noticias</a></li>
+                <li><a href="#galeria">Galería de imágenes</a></li>
+                <li><a href="#lugares">Lugares de interés</a></li>
+                <li><a href="#mapa">Mapa de población</a></li>
             </ul>
         </nav>
-    </header>
-    
-    <main>
-        <section id="galeria">
-            <h2>Galería de Imágenes</h2>
-            <div class="imagenes">
-                <img src="img1.jpg" alt="Imagen 1">
-                <img src="img2.jpg" alt="Imagen 2">
-                <img src="img3.jpg" alt="Imagen 3">
-            </div>
-        </section>
-        
-        <section id="lugares">
-            <h2>Lugares de Interés</h2>
-            <div class="lugares">
+
+        <main class="content">
+            <section id="galeria">
+                <h2>Galería de Imágenes</h2>
+                <div class="imagenes">
+                    <img src="img1.jpg" alt="Imagen de EE.UU.">
+                    <img src="img2.jpg" alt="Imagen de EE.UU.">
+                    <img src="img3.jpg" alt="Imagen de EE.UU.">
+                </div>
+            </section>
+
+            <section id="lugares">
+                <h2>Lugares de Interés</h2>
                 <article>
-                    <h3>Lugar 1</h3>
-                    <img src="lugar1.jpg" alt="Lugar 1">
-                    <p>Descripción del lugar 1.</p>
-                    <p><strong>Ubicación:</strong> Dirección del lugar 1.</p>
+                    <h3>Estatua de la Libertad</h3>
+                    <img src="libertad.jpg" alt="Estatua de la Libertad">
+                    <p>Uno de los monumentos más icónicos de EE.UU., ubicado en Nueva York.</p>
+                    <p><strong>Ubicación:</strong> Nueva York, NY</p>
                 </article>
                 <article>
-                    <h3>Lugar 2</h3>
-                    <img src="lugar2.jpg" alt="Lugar 2">
-                    <p>Descripción del lugar 2.</p>
-                    <p><strong>Ubicación:</strong> Dirección del lugar 2.</p>
+                    <h3>Gran Cañón</h3>
+                    <img src="gran_canon.jpg" alt="Gran Cañón">
+                    <p>Maravilla natural con vistas impresionantes.</p>
+                    <p><strong>Ubicación:</strong> Arizona</p>
                 </article>
                 <article>
-                    <h3>Lugar 3</h3>
-                    <img src="lugar3.jpg" alt="Lugar 3">
-                    <p>Descripción del lugar 3.</p>
-                    <p><strong>Ubicación:</strong> Dirección del lugar 3.</p>
+                    <h3>Parque Nacional Yellowstone</h3>
+                    <img src="yellowstone.jpg" alt="Yellowstone">
+                    <p>Famoso por sus géiseres y paisajes naturales.</p>
+                    <p><strong>Ubicación:</strong> Wyoming, Montana, Idaho</p>
                 </article>
                 <article>
-                    <h3>Lugar 4</h3>
-                    <img src="lugar4.jpg" alt="Lugar 4">
-                    <p>Descripción del lugar 4.</p>
-                    <p><strong>Ubicación:</strong> Dirección del lugar 4.</p>
+                    <h3>Las Vegas Strip</h3>
+                    <img src="las_vegas.jpg" alt="Las Vegas">
+                    <p>Zona de entretenimiento con casinos y espectáculos de primer nivel.</p>
+                    <p><strong>Ubicación:</strong> Nevada</p>
                 </article>
-            </div>
-        </section>
-        
+            </section>
 
+            <section id="mapa">
+                <h2>Mapa de la Población</h2>
+                <iframe src="https://www.google.com/maps/embed?..." width="100%" height="300"></iframe>
+            </section>
+        </main>
 
+        <aside class="news">
+            <h2>Últimas Noticias</h2>
+            <article>
+                <h3>Apertura de un nuevo parque temático</h3>
+                <p>Un nuevo parque temático ha sido inaugurado en Orlando, atrayendo miles de turistas.</p>
+            </article>
+            <article>
+                <h3>Récord de visitas en el Gran Cañón</h3>
+                <p>Este año, el Gran Cañón ha recibido una cantidad récord de visitantes.</p>
+            </article>
+        </aside>
+    </div>
 
-        <section id="mapa">
-            <h2>Mapa de la Población</h2>
-            <iframe src="https://www.google.com/maps/embed?..." width="600" height="450"></iframe>
-        </section>
-    </main>
-    
-    <aside id="noticias">
-        <h2>Últimas Noticias</h2>
-        <article>
-            <h3>Noticia 1</h3>
-            <p>Resumen de la noticia 1...</p>
-        </article>
-        <article>
-            <h3>Noticia 2</h3>
-            <p>Resumen de la noticia 2...</p>
-        </article>
-    </aside>
-    
-
-
-
-    
     <footer>
-        <p>&copy; 2025 Turismo Local</p>
+        <p>&copy; 2025 Turismo en Estados Unidos</p>
     </footer>
 </body>
 </html>
