@@ -1,16 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Madimi One';
     margin: 0;
     padding: 0;
-    background: #2f4f66;
-    color: #000;
+    background: #ffffff;
+    color: #e0e0e0;
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 header {
-    background: #007acc;
+    background: #1b1b2f;
     color: white;
     text-align: center;
-    padding: 15px 0;
+    padding: 15px;
+    font-size: 20px;
 }
 
 .container {
@@ -21,9 +27,9 @@ header {
 }
 
 .sidebar, .news {
-    background: #c47135;
-    padding: 15px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    background: #16213e; 
+    padding: 10px;
+    border-radius: 8px;
 }
 
 .sidebar {
@@ -31,7 +37,8 @@ header {
 }
 
 .sidebar h2 {
-    font-size: 18px;
+    font-size: 20px;
+    color: #e0e0e0;
 }
 
 .sidebar ul {
@@ -45,36 +52,49 @@ header {
 
 .sidebar ul li a {
     text-decoration: none;
-    color: #000;
+    color: #e0e0e0;
     font-weight: bold;
+    transition: color 0.3s;
+}
+
+.sidebar ul li a:hover {
+    color: #ffcc29;
 }
 
 .content {
     width: 55%;
-    background: #c47135;
+    background: #0f3460;
     padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.content h2 {
+    color: #ffcc29; 
 }
 
 .content img {
     width: 100%;
-    height: auto;
+    border-radius: 5px;
 }
 
 .news {
     width: 25%;
+    background: #16213e;
 }
 
 .news article {
-    background: #fff;
+    background: #1b1b2f;
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 5px;
+    border-left: 5px solid #ffcc29;
 }
 
 footer {
-    text-align: center;
-    padding: 10px;
-    background: #007acc;
+    padding: 15px;
+    background: #1b1b2f;
     color: white;
+    font-size: 16px;
     margin-top: 20px;
 }
