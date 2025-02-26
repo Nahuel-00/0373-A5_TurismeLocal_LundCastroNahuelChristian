@@ -20,12 +20,18 @@ header {
     font-size: 20px;
 }
 
+
 .container {
     display: flex;
     width: 90%;
     margin: auto;
     padding: 20px;
 }
+
+
+
+
+
 
 .sidebar, .news {
     background: #16213e;
@@ -120,4 +126,114 @@ footer {
     color: white;
     font-size: 16px;
     margin-top: 20px;
+}
+
+#volver a{
+    text-decoration: none;
+    color: white;
+}
+#volver{
+    margin-top: 10%;
+    text-align: center;
+    padding: 10px;
+    background: #ffcc29;
+    border-radius: 5px;
+}
+
+
+
+@media screen and (max-width: 700px) {
+    html, body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+    
+    .container {
+        flex-direction: column;
+        width: 100%;
+        padding: 10px;
+        align-items: center;
+    }
+
+    .sidebar, .news, .content {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .sidebar ul {
+        padding: 0;
+        text-align: center;
+    }
+
+    .sidebar ul li {
+        list-style: none;
+        margin: 8px 0;
+    }
+
+    .imagenes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .imagenes img {
+        width: 90%;
+        border-radius: 8px;
+    }
+
+    .lugares-grid {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .lugares-grid article {
+        text-align: center;
+        padding: 10px;
+        background: #1b1b2f;
+        border-radius: 8px;
+    }
+
+    .lugares-grid img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        margin-bottom: 10px;
+    }
+
+    .lugares-grid h4 {
+        margin-top: 5px;
+        color: #ffcc29;
+    }
+
+    .news article {
+        padding: 10px;
+        border-left: 4px solid #ffcc29;
+    }
+
+    header {
+        font-size: 18px;
+        padding: 12px;
+    }
+
+    footer {
+        text-align: center;
+        font-size: 14px;
+        padding: 12px;
+    }
+
+    #volver {
+        margin-top: 5%;
+        text-align: center;
+        padding: 12px;
+        background: #ffcc29;
+        border-radius: 8px;
+    }
+
+    #volver a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+    }
 }
